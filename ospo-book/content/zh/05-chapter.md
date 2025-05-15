@@ -10,21 +10,35 @@ weight: 60
 - [Applying This to Your Organization](#applying-this-to-your-organization)
 - [Resources and Footnotes](#resources-and-footnotes)
 
-## Introduction
+- [总体介绍](#总体介绍)
+- [培训与教育](#培训与教育)
+- [关键举措](#关键举措)
+- [应用到您的组织](#应用到您的组织)
+- [资源和脚注](#资源和脚注)
+
+## 总体介绍
 
 > NOTE: This chapter has been developed through the expertise of Open Source Security Foundation (OpenSSF) representatives, with support from the TODO Group
+> 提示：本章节使用到了开源安全基金会（OpenSSF）的专业知识，并得到TODO Group的支持。
 
 Open source software is an important part of the software supply chain. Because of this, it's part of an OSPO’s responsibility to help secure the OSS supply chain. This includes tasks such as:
+开源软件是软件供应链的重要组成部分。因此，OSPO开源办公室的重要职责之一就是协助实现开源软件供应链的安全性，包括如下的任务：
 
 - Helping development teams assess the security of the OSS they use in products.
 - Encouraging development teams to contribute to upstream open source projects to help improve their security.
 - Following secure software development best practices in open source projects that the company maintains, contributes to, or leads.
+- 协助开发团队评估他们在产品中使用的开源软件的安全性
+- 鼓励开发团队向开源上游项目提交贡献，提升其安全性
+- 在公司维护、贡献或主导的开源项目中，遵循软件研发安全的最佳实践
 
 This chapter includes useful resources to help OSPOs and open source developers apply secure software development and supply chain best practices - both in the software they use and the software they create.
+本章节包含对OSPO开源办公室和开源软件开发者的有用资源，用于实施软件研发安全和供应链管理的最佳实践，包括他们引入和自己研发的软件。
 
 In some ways, security is just like any other requirement. However, many software developers and their managers haven't received enough training in security. Also, security is about defending against intelligent attackers, and it often depends on how the entire system works together — not just on one part.
+在某个意义上，安全就是另一种功能需求。然而，很多软件研发者和他们的管理者都未得到足够的安全培训。另外安全也是涉及抵御机密窃取的攻击，这依赖与整个系统的协同工作，不仅仅是其中一环。
 
 Fixing security problems later is often expensive. It's better to prevent them, reduce their chances or impact, and be prepared in case something still goes wrong. It’s important to plan from the beginning and allocate resources (such as time and money) to handle security properly. Open source software can have a security advantage because it allows for mass peer review and follows the principle of “open design” — but these benefits don’t happen automatically.
+事后的安全问题修复常常成本高昂。较好的做法是预防安全问题，减少其概率和影响面，并为某环节出错的情况做好准备。在早期就对安全体系投入时间和财务资源是非常重要的。开源软件能够具备安全优势，因为它允许广泛的同行评审和遵循开放涉及的原则，但这些优势并不是自动就到来。
 
 ## Training and Education
 
