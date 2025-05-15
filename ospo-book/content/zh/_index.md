@@ -15,7 +15,7 @@ status: Completed
 
 <p><img class="mt-3 mb-3" src="/images/homepage/colorful-houses.jpg" alt="Colorful houses with people"></p>
 
-当探索本书内容时，我们鼓励您在贵组织内使用本书。如果您希望建议我们新增其他内容，请随时访问我们的 GitHub 仓库 [^2]，新建问题或新增内容。
+在阅读本书的过程中，我们鼓励您在自己的组织中应用和实践。如果您希望建议我们添加更多内容，请随时访问我们的 GitHub 仓库 [^2]，新建问题或新增内容。
 
 ## 许可
 
