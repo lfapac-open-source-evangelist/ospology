@@ -41,10 +41,13 @@ Fixing security problems later is often expensive. It's better to prevent them, 
 事后的安全问题修复常常成本高昂。较好的做法是预防安全问题，减少其概率和影响面，并为某环节出错的情况做好准备。在早期就对安全体系投入时间和财务资源是非常重要的。开源软件能够具备安全优势，因为它允许广泛的同行评审和遵循开放涉及的原则，但这些优势并不是自动就到来。
 
 ## Training and Education
+## 培训与教育
 
 Many software developers and managers don’t know what they need to know about security. This lack of knowledge often causes problems. Here are some key areas to understand, along with links to free OpenSSF courses that can help. These specific courses aren't required, but it's important that everyone involved in software development gets the right training.
+很多软件研发人员和管理者不知道为何他们需要理解安全。这些认知的缺乏常常导致问题。这里给出一些需要理解的关键领域，以及有助解决问题的OpenSSF开源机构免费课程的链接。这些课程不是强制的，但每位软件研发的从业者能获取合适的培训是非常重要的事情。
 
 Managers (of both open and closed source projects) should understand how to manage secure software development. This includes knowing basic security terms, how to manage risks, how to build security into the design, how to protect all environments, how to identify risks early, and how to set clear expectations with stakeholders. Managers should also understand what their developers need to learn. If they haven’t been trained yet, they can take the free Open Source Security Foundation OpenSSF course *Security for Software Development Managers (LFD125)* [^1].
+
 
 Developers should take a course on secure software development. This includes how to build secure software during planning, design, coding, testing, and release. Developers also need to know how to evaluate third-party software. They should understand common vulnerabilities (like those in the OWASP Top Ten for web apps [^2] and CWE Top 25 for general software [^3]) and how to avoid them. They should also know how to secure development environments and respond to vulnerability reports. If they haven't had this training, they can take the free OpenSSF course Developing Secure Software (LFD121) [^4].
 
