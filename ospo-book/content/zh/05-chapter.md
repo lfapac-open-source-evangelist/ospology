@@ -86,25 +86,37 @@ Both developers and managers must understand any laws or regulations they need t
 3. 使用开源安全基金会OpenSSF安全评分表 Scorecard，在引入外部软件时先评估其安全评分表得分。
 
 **Protect your environments, including development, build, test, and distribution:**
+**保护你的软件环境，包括研发、构建、测试和分发环境：**
 
 1. Use multi-factor authentication (MFA) to make it harder for attackers to gain access.
-1. Secure your build environment. See OpenSSF SLSA for more guidance [^11].
+1. 使用多因素认证（MFA），增大攻击者访问难度。
+
+2. Secure your build environment. See OpenSSF SLSA for more guidance [^11].
+2. 安全加固您的构建环境，请参考开源安全基金会OpenSSF发布的SLSA规范作为指引 [^11]。
 
 **Use automated tools in your continuous integration (CI) pipeline to catch security issues early:**
+**在您的持续集成流水线中使用自动化工具，提早发现安全问题：**
 
 1. Use multiple types of tools, as each may find different problems, see the Guide to Security Tools [^12].
+1. 使用多类型工具，每一种工具可以发现不同的安全问题，请参考 the Guide to Security Tools [^12]。
 
-1. For new projects (“green field”), enable all security checks. For older projects (“brown field”), start with the most important checks so the reports are manageable
+2. For new projects (“green field”), enable all security checks. For older projects (“brown field”), start with the most important checks so the reports are manageable
+2. 对新建类型的项目（绿地项目），要执行全部安全检测。对存量类型项目（棕地项目），以最重要的安全检测为启动，确保检测报告的可管控。
 
-1. Enable tools that detect known vulnerabilities in reused components
+3. Enable tools that detect known vulnerabilities in reused components
+3. 对复用组件，启用安全工具来检测已知的攻击点。 
 
 Prepare for vulnerability reports — they can happen to any project. Clearly explain how people can report vulnerabilities. Open source projects should review the OpenSSF Guide to implementing a coordinated vulnerability disclosure process [^13].
+为安全风险披露报告做好准备，任何项目都会面对这种情况。要告知人们如何提交安全风险点。开源项目需要评估开源安全基金会OpenSSF的指引，实施安全风险披露流程 [^13]。
 
 ## Applying This to Your Organization
+## 如何在您的组织机构中实施
 
 Improving the security of OSS in your organization isn't just about using tools. It also requires changes in culture and daily work processes. One of the first steps is to build a mindset where security is everyone’s responsibility, not just the job of a small team. Leaders should clearly communicate that secure software development is important and support this with time, resources, and recognition for those who work on it.
+提升您所在组织机构的开源安全水平不仅仅是使用工具，也涉及到企业文化和日常工作流程。启动工作之一是灌输这个安全理念，安全是全部人的责任而不仅仅是小团队的工作。领导者需清晰地表达软件安全研发的重要性，为这个工作提供持续的支持、资源投入和对相关责任团队的认可。
 
 Security practices should be part of everyday development work, not something separate. For example, instead of running security checks only once in a while, make tools like scorecards and vulnerability scans part of your regular CI/CD pipeline. This helps make security a normal and expected part of how your team builds software.
+软件安全实践应纳入日常的研发工作，而不是分离的独立工作。例如，替换掉安全检测只会偶尔执行一次的模式，改为常态化的CI/CD流水线中执行漏洞扫描和生成安全打分卡的模式。这会让软件安全成为您团队认同的理念和纳入预期。
 
 Training and education should happen regularly, not just once. Developers and managers should be encouraged to learn the basics of secure software development. This can include free OpenSSF courses and other programs. Make sure your teams know that learning about security is important and will be recognized. This builds long-term interest and responsibility.
 
