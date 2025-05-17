@@ -56,25 +56,34 @@ Both developers and managers must understand any laws or regulations they need t
 软件研发人员和管理者都必须理解他们需要遵循的法律和监控条例。例如，所有设计在欧盟（EU）使用软件的相关方，都应当了解欧盟《网络弹性法案》（CRA, Cyber Resilience Act），这包含知晓该法案的适用面，法案定义的不同参与角色（例如制造商、开源管理者）和法律义务。由于CRA法案覆盖了较大的适用面和较强的惩罚性，受法案约束的相关方可以参加开源安全基金会（OpenSSF）的免费培训 “理解欧盟《网络弹性法案》Understanding the European Union (EU) Cyber Resilience Act (CRA) (LFEL1001)” [^5]
 
 ## Key Steps
+## 关键举措
 
 **For developing your own software:**
+**研发您的自有软件：**
 
 1. Review the OpenSSF Concise Guide for Developing More Secure Software, which links to practical resources [^6].
+1. 评估开源安全基金会OpenSSF的《Concise Guide for Developing More Secure Software》指引文档，文档中提供了实用资源 [^6]。
 
-1. Work to meet the OpenSSF Baseline, a short list of security checks [^7].
+2. Work to meet the OpenSSF Baseline, a short list of security checks [^7].
+2. 致力于达到开源安全基金会OpenSSF的安全基线，其包含的安全检查项清单 [^7]。
 
-1. Earn an OpenSSF Best Practices badge for your project. Start with “passing” and plan to achieve “silver” or “gold” over time [^8].
+3. Earn an OpenSSF Best Practices badge for your project. Start with “passing” and plan to achieve “silver” or “gold” over time [^8].
+3. 获取开源安全基金会OpenSSF的安全实践徽章，从“达标 passing”开始，并规划依次实现“银标 silver”或“金标 gold” [^8]。
 
-1. Improve your OpenSSF Scorecard score. While this is often used to evaluate other projects, it can also help you measure your own [^9].
+4. Improve your OpenSSF Scorecard score. While this is often used to evaluate other projects, it can also help you measure your own [^9].
+4. 改进您项目的开源安全基金会OpenSSF安全评分表 Scorecard 得分，这个评分表常常用来评估外部外部项目，也可以为您评估您自己的项目 [^9]。
 
 **Most modern software reuses other software. Choose and use open source components carefully:**
+**大部分现代软件重用了外部软件，选用开源组件需严谨：**
 
 1. Use the Concise Guide for Evaluating Open Source Software [^10].
+1. 使用开源软件简要评估 [^10]。 
 
-1. Double-check software names to avoid “typosquatting” attacks (where malicious packages have names similar to trusted ones).
+2. Double-check software names to avoid “typosquatting” attacks (where malicious packages have names similar to trusted ones).
+2. 仔细检查软件名称以规避“近似名称”攻击（恶意软件包使用与可信软件包近似的名称）。
 
-1. Use the OpenSSF Scorecard to evaluate software before using it [^9].
-
+3. Use the OpenSSF Scorecard to evaluate software before using it [^9].
+3. 使用开源安全基金会OpenSSF安全评分表 Scorecard，在引入外部软件时先评估其安全评分表得分。
 
 **Protect your environments, including development, build, test, and distribution:**
 
