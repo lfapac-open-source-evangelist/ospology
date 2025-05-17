@@ -119,22 +119,29 @@ Security practices should be part of everyday development work, not something se
 软件安全实践应纳入日常的研发工作，而不是分离的独立工作。例如，替换掉安全检测只会偶尔执行一次的模式，改为常态化的CI/CD流水线中执行漏洞扫描和生成安全打分卡的模式。这会让软件安全成为您团队认同的理念和纳入预期。
 
 Training and education should happen regularly, not just once. Developers and managers should be encouraged to learn the basics of secure software development. This can include free OpenSSF courses and other programs. Make sure your teams know that learning about security is important and will be recognized. This builds long-term interest and responsibility.
+培训和教育应常态化定期执行，而不是一次性工作。研发人员和管理者应被鼓励学习软件安全研发的基础知识，包括开源安全基金会OpenSSF的免费和其他课程。要确保您的团队知晓安全非常重要，并会获得认可，这会构建长期的兴趣和责任感。
 
 It also helps to be open about security progress. Encourage teams to track and share their progress on goals like earning Best Practices badges or improving their Scorecard results. This creates a positive environment where teams help each other and improve together, instead of feeling blamed when something goes wrong.
+对安全改进的开放心态是非常有用的，要鼓励团队跟踪和分享他们的任务进展，例如获得最佳实践徽章，或提升他们的安全打分卡成绩。这会带来相互帮助和改进的积极团队文化，而不是发生错漏时的相互指责。
 
 Lastly, support continuous improvement. Security isn't something you finish — it’s always changing. Set up regular times to review risks, update tools and practices, and share what your teams have learned. Give teams the freedom to make decisions about security early in the development process, not just at the end or after a problem happens.
+最后，要支持持续的改进。软件安全不是一劳永逸的工作，它始终在变化。要设置常态化的风险评估时间计划，更新工具和实践流程，分享您团队的经验，让研发团队可以自主和预先决定研发流程中的安全工作，而不是在最后阶段或发生问题时才实施。
 
 By creating a culture of shared responsibility, adding security into everyday work, investing in learning, encouraging openness, and improving over time, your organization can make real progress in securing the OSS it builds and uses.
+通过构建责任共担文化、在日常工作中嵌入安全任务、投入资源学习、鼓励开放、持续改进等工作，您的组织机构可以实现开源软件安全开发和使用的实质性提升。
 
 ## Resources and Footnotes
+## 资源和脚注
 
 ### Resources
+### 资源
 
 - OpenSSF: https://openssf.org
 - OWASP: https://owasp.org/
 - CWE: https://cwe.mitre.org/index.html
 
 ### Footnotes
+### 脚注
 
 [^1]: Open Source Security Foundation OpenSSF course *Security for Software Development Managers (LFD125)*
  https://training.linuxfoundation.org/training/security-for-software-development-managers-lfd125/.
