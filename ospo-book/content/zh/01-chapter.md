@@ -5,10 +5,10 @@ weight: 30
 ---
 - [导言](#导言)
 - [关于 OSPO](#关于-ospo)
-- [如何应用于您的组织](#如何应用于您的组织)
+- [如何应用于组织](#如何应用于组织)
 - [小结](#小结)
 - [可能遇到的问题及应对方法](#可能遇到的问题及应对方法)
-- [资源与附注](#资源与附注)
+- [资源与脚注](#资源与脚注)
 
 ## 导言
 
@@ -29,7 +29,7 @@ OSPO 的设计目标如下：
 
 OSPO 在不同组织中形式各异。例如，OSPO 可能设在研发部门、首席技术官（CTO）办公室、工程部门，或是“虚拟”的，由来自全企业的人员组成。OSPO 可以是大型多层级的，比如企业级 OSPO 配有部门级 OSPO，也可以非常小型，甚至是非正式的自组织团队。
 
-> **注意**：有关 OSPO 更深入的解释，请参见 TODO 小组 （TODO Group，OSPO 领域的国际开源协作组织）官方的 OSPO 定义，链接见本章“资源与附注”部分。
+> **注意**：有关 OSPO 更深入的解释，请参见 TODO 小组 （TODO Group，OSPO 领域的国际开源治理研究与协作组织）官方的 OSPO 定义，链接见本章“资源与脚注”部分。
 
 ### OSPO 在组织内的运作方式
 
@@ -53,13 +53,13 @@ OSPO 从四个不同的视角考虑跨职能协作：
 
 过去，协作式开源软件（Open Source Software,英文缩写OSS）开发主要由开发者和爱好者组成的小团体采用，当时几乎无需专门的组织单元来管理开源活动。然而，随着这种开发方式变得愈发普遍且对许多组织的运作至关重要，对专门开源办公室（OSPO）的需求也愈发显著。
 
-OSPO 概念最初大约二十年前起源于企业界，但在过去十年中OSPO 的应用显著加速。多数头部的技术基础设施企业，如亚马逊（Amazon）、威睿（VMware）、思科（Cisco）等，以及消费类科技企业，如苹果（Apple）、谷歌（Google）、Meta（前身为脸书（Facebook））等，都已落地 OSPO 或正式的开源项目，并鼓励员工为对其业务和安全具有战略意义的开源项目做出贡献。
+OSPO 概念最初大约二十年前起源于企业界，但在过去十年中OSPO 的应用显著加速。多数头部的技术基础设施企业，如亚马逊（Amazon）、威睿（VMware）、思科（Cisco）等，以及消费类科技企业，如苹果（Apple）、谷歌（Google）、Meta（前身为脸书（Facebook））等，都已采纳与落地 OSPO 或正式的开源项目，并鼓励员工为对其业务和安全具有战略意义的开源项目做出贡献。
 
 近年来，随着不同行业和地区的更多组织在内部设立专门的开源岗位以管理开源运作及战略，“OSPO” 这一术语已变得更加主流且多样化。最近，OSPO 已在不同地区（亚太地区（APAC）、欧洲、中东及非洲地区（EMEA）、美洲地区（AMER））和不同类型的组织中成立，如政府机构、企业、非政府组织（NGOs）和高校。
 
 > **注意**：在本书（即手册，译者注）中，我们将管理开源的组织部分称为 OSPO，但根据您的组织情况，可能会使用不同的名称。OSPO 会因行业、地区、组织规模等多种因素而异。名称可能去掉“项目”二字（如同本手册中文版中采用的“规范”译名，译者注），变为“开源办公室”，或使用完全不同的名称，如“开源能力中心”、“开源指导委员会”或“开源软件团队”等。
 
-## 如何应用于您的组织
+## 如何应用于组织
 
 ### 您的组织是否需要 OSPO？
 
@@ -73,7 +73,7 @@ OSPO 概念最初大约二十年前起源于企业界，但在过去十年中OSP
 
 评估组织是否需要 OSPO 的第一步，是了解当前组织中开源资源的使用、贡献或产出情况。这些信息对于思考 OSPO 如何帮助组织管理开源带来的风险和机遇至关重要。OSPO 可以帮助确保组织内的开源活动得到有效管理，并与战略目标和行动宗旨保持一致。
 
-评估开源落地十分关键，因为它为成功的开源运作奠定基础。如果没有对开源的正确理解和应用，OSPO 可能无法有效实现预期成效。
+评估开源采纳与落地十分关键，因为它为成功的开源运作奠定基础。如果没有对开源的正确理解和应用，OSPO 可能无法有效实现预期成效。
 
 请考虑以下组织开源参与领域：
 
@@ -85,7 +85,7 @@ OSPO 概念最初大约二十年前起源于企业界，但在过去十年中OSP
 
 * **工具与流程：** 评估支持开源运营的现行工具和流程。是否有可用于开源运营的现有工具或流程？当前工具或流程中是否存在需要解决的不足或缺陷？
 
-* **弥补差距：** 识别开源落地或准备度方面的差距，并制定相应的解决方案。具体措施可能包括：为参与或将要参与开源的人员提供开源软件使用和许可培训，开发支持开源运营的新工具和流程，或设立 OSPO 以统筹协调开源活动。
+* **弥补差距：** 识别开源采纳与落地或准备度方面的差距，并制定相应的解决方案。具体措施可能包括：为参与或将要参与开源的人员提供开源软件使用和许可培训，开发支持开源运营的新工具和流程，或设立 OSPO 以统筹协调开源活动。
 
 总体而言，可通过以下问题向利益相关者收集意见：
 
@@ -146,23 +146,23 @@ OSPO 被视为一刀切的解决方案。
 
 仔细评估组织的具体需求和目标，判断 OSPO 是否合适，并根据实际情况调整其架构和职能，使其有效对齐组织的独特目标和战略。分享 OSPO 的使命，并展示您的工作如何实现这一使命。
 
-## 资源与附注
+## 资源与脚注
 
 ### 资源
 
-* OSPO 定义: https://github.com/todogroup/ospodefinition.org
+* OSPO 定义（OSPO definition）: https://github.com/todogroup/ospodefinition.org
 * 图示来源: https://lists.todogroup.org/g/WG-ospo-book-project/message/5
-* 邮件讨论: https://lists.todogroup.org/g/WG-ospo-book-project/message/5
-* OSPO 101 模块 1 - 开源简介: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module1
-* OSPO 101 模块 2 - 开源商业模式: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module2
-* OSPO 101 模块 3 - 开源管理与您的组织: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module3
-* OSPO 简易 FAQ - TODO Group 与 Open Chain Japan, Linux Foundation: https://todogroup.org/resources/guides/open-source-program-office-ospo-easy-faq/
-* 如何创建 OSPO - TODO Group, Linux Foundation: https://todogroup.org/resources/guides/how-to-create-an-open-source-program-office/
-* OSPO 定义 - TODO Group, Linux Foundation: https://ospoglossary.todogroup.org/ospo-definition/
-* OSPO：数字政府新工具 - Open Forum Europe: https://openforumeurope.org/wp-content/uploads/2022/06/The-OSPO-A-New-Tool-for-Digital-Government-2.pdf
-* OSPO 落地全景 - TODO Group, Linux Foundation: https://landscape.todogroup.org/
-* 开源商业成功 - VM (Vicky) Brasseur: https://pragprog.com/titles/vbfoss/business-success-with-open-source/
+* 邮件讨论（ML discussion）: https://lists.todogroup.org/g/WG-ospo-book-project/message/5
+* OSPO 101 模块 1（OSPO 101 Module 1） - 开源简介: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module1
+* OSPO 101 模块 2（OSPO 101 Module 2） - 开源商业模式: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module2
+* OSPO 101 模块 3（OSPO 101 Module 3） - 开源管理与您的组织: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module3
+* OSPO 简易常见问题解答（OSPO easy FAQ） - TODO 小组（TODO Group）与日本开源链（Open Chain Japan）联合发布，Linux 基金会（Linux Foundation）: https://todogroup.org/resources/guides/open-source-program-office-ospo-easy-faq/
+* 创建开源办公室指南（How to create an OSPO） - TODO 小组（TODO Group）, Linux 基金会（Linux Foundation）: https://todogroup.org/resources/guides/how-to-create-an-open-source-program-office/
+* OSPO 定义（OSPO Definition） - TODO 小组（TODO Group）, Linux 基金会（Linux Foundation）: https://ospoglossary.todogroup.org/ospo-definition/
+* OSPO：数字政府新工具（The OSPO: A New Tool for Digital Government） - 欧洲开放论坛（Open Forum Europe）: https://openforumeurope.org/wp-content/uploads/2022/06/The-OSPO-A-New-Tool-for-Digital-Government-2.pdf
+* OSPO 采纳与落地生态图谱（OSPO Adoption Landscape） - TODO 小组（TODO Group）, Linux 基金会（Linux Foundation）: https://landscape.todogroup.org/
+* 开源商业成功（Business Success with Open Source） - VM（维姬）·布拉瑟尔（VM (Vicky) Brasseur）: https://pragprog.com/titles/vbfoss/business-success-with-open-source/
 
-### 附注
+### 脚注
 
 无。
