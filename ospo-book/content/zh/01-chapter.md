@@ -1,5 +1,5 @@
 ---
-title: "第1章：开源办公室 OSPO 简介"
+title: "第1章：开源项目办公室 OSPO 简介"
 status: Completed
 weight: 30
 ---
@@ -14,7 +14,7 @@ weight: 30
 
 在当今的数字生态系统中，开源资源已从小众的技术手段转变为现代组织技术基础设施的核心要素。各行各业的企业越来越依赖开源组件、框架和工具来推动创新、降低开发成本，并加快产品和服务的上市速度。然而，这种日益增长的依赖也带来了安全、合规、许可和战略对齐等复杂挑战，这些挑战需要有意识的管理，而不是临时应对。
 
-开源项目办公室（Open Source Program Office，英文缩写OSPO，以下简称“开源办公室”或“OSPO”）已成为应对这些挑战的关键组织职能。OSPO 作为组织开源活动的集中枢纽（centralized hub），协调使用政策、贡献策略、合规流程和社区参与等工作。通过建立正式的治理结构，OSPO 能够帮助组织系统性地管理风险，同时最大限度地从开源技术和社区中获得业务价值。
+开源项目办公室（Open Source Program Office，英文缩写OSPO）已成为应对这些挑战的关键组织职能。OSPO 作为组织开源活动的集中枢纽（centralized hub），协调使用政策、贡献策略、合规流程和社区参与等工作。通过建立正式的治理结构，OSPO 能够帮助组织系统性地管理风险，同时最大限度地从开源技术和社区中获得业务价值。
 
 除了风险管理之外，成功的 OSPO 还会从根本上改变组织与更广泛的开源生态系统互动的方式。它们通过知识共享促进内部工程的卓越，通过为关键项目做出战略性贡献来促进外部认可，并通过与开源社区保持健康的关系来创造创新的途径。OSPO 机制运行良好的组织通常会看到开发人员生产力提升、软件质量提高、法律风险减少，以及在重视开源专业能力和价值观的人才市场中更具竞争力。
 
@@ -49,15 +49,15 @@ OSPO 从四个不同的视角考虑跨职能协作：
 
 <img width="908" alt="players in a business-oriented OSPO" src="/images/players-in-a-business-oriented-OSPO.png">
 
-### 开源办公室（OSPO）简史
+### 开源项目办公室（OSPO）简史
 
-过去，协作式开源软件（Open Source Software,英文缩写OSS）开发主要由开发者和爱好者组成的小团体采用，当时几乎无需专门的组织单元来管理开源活动。然而，随着这种开发方式变得愈发普遍且对许多组织的运作至关重要，对专门开源办公室（OSPO）的需求也愈发显著。
+过去，协作式开源软件（Open Source Software,英文缩写OSS）开发主要由开发者和爱好者组成的小团体采用，当时几乎无需专门的组织单元来管理开源活动。然而，随着这种开发方式变得愈发普遍且对许多组织的运作至关重要，对专门开源项目办公室（OSPO）的需求也愈发显著。
 
 OSPO 概念最初大约二十年前起源于企业界，但在过去十年中OSPO 的应用显著加速。多数头部的技术基础设施企业，如亚马逊（Amazon）、威睿（VMware）、思科（Cisco）等，以及消费类科技企业，如苹果（Apple）、谷歌（Google）、Meta（前身为脸书（Facebook））等，都已采纳与落地 OSPO 或正式的开源项目，并鼓励员工为对其业务和安全具有战略意义的开源项目做出贡献。
 
 近年来，随着不同行业和地区的更多组织在内部设立专门的开源岗位以管理开源运作及战略，“OSPO” 这一术语已变得更加主流且多样化。最近，OSPO 已在不同地区（亚太地区（APAC）、欧洲、中东及非洲地区（EMEA）、美洲地区（AMER））和不同类型的组织中成立，如政府机构、企业、非政府组织（NGOs）和高校。
 
-> **注意**：在本书（即手册，译者注）中，我们将管理开源的组织部分称为 OSPO，但根据您的组织情况，可能会使用不同的名称。OSPO 会因行业、地区、组织规模等多种因素而异。名称可能去掉“项目”二字（如同本手册中文版中采用的“规范”译名，译者注），变为“开源办公室”，或使用完全不同的名称，如“开源能力中心”、“开源指导委员会”或“开源软件团队”等。
+> **注意**：在本书（即手册，译者注）中，我们将管理开源的组织部分称为 OSPO，但根据您的组织情况，可能会使用不同的名称。OSPO 会因行业、地区、组织规模等多种因素而异。名称可能去掉“项目”二字，变为“开源办公室”，或使用完全不同的名称，如“开源能力中心”、“开源指导委员会”或“开源软件团队”等。
 
 ## 如何应用于组织
 
@@ -157,7 +157,7 @@ OSPO 被视为一刀切的解决方案。
 * OSPO 101 模块 2（OSPO 101 Module 2） - 开源商业模式: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module2
 * OSPO 101 模块 3（OSPO 101 Module 3） - 开源管理与您的组织: https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module3
 * OSPO 简易常见问题解答（OSPO easy FAQ） - TODO 小组（TODO Group）与日本开源链（Open Chain Japan）联合发布，Linux 基金会（Linux Foundation）: https://todogroup.org/resources/guides/open-source-program-office-ospo-easy-faq/
-* 创建开源办公室指南（How to create an OSPO） - TODO 小组（TODO Group）, Linux 基金会（Linux Foundation）: https://todogroup.org/resources/guides/how-to-create-an-open-source-program-office/
+* 创建开源（项目）办公室指南（How to create an OSPO） - TODO 小组（TODO Group）, Linux 基金会（Linux Foundation）: https://todogroup.org/resources/guides/how-to-create-an-open-source-program-office/
 * OSPO 定义（OSPO Definition） - TODO 小组（TODO Group）, Linux 基金会（Linux Foundation）: https://ospoglossary.todogroup.org/ospo-definition/
 * OSPO：数字政府新工具（The OSPO: A New Tool for Digital Government） - 欧洲开放论坛（Open Forum Europe）: https://openforumeurope.org/wp-content/uploads/2022/06/The-OSPO-A-New-Tool-for-Digital-Government-2.pdf
 * OSPO 采纳与落地生态图谱（OSPO Adoption Landscape） - TODO 小组（TODO Group）, Linux 基金会（Linux Foundation）: https://landscape.todogroup.org/
